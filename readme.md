@@ -1,4 +1,4 @@
-CTE: C++ Template Engine
+CTE: Template Engine
 ========================
 
 Basic template engine first version has a file such as:
