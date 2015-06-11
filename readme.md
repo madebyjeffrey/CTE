@@ -3,14 +3,12 @@ CTE: Template Engine
 
 Basic template engine first version has a file such as:
 
+
     #include <list>
     #include <string>
 
-    %%
-
-    homepage(std::list<std::string> names)
-
-    %%
+    @homepage(std::list<std::string> names) -> std::string
+  
     <!DOCTYPE html>
     <html>
       <head>
@@ -24,6 +22,7 @@ Basic template engine first version has a file such as:
         </ol>
       </body>
     </html>
+    
 
 It would generate a header *homepage.h* file such as:
 
